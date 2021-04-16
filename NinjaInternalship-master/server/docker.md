@@ -1,1 +1,0 @@
-sudo docker run -d -p 6434:5432  --name cryptoapp-db  -e POSTGRES_USER=cryptoapp  -e POSTGRES_PASSWORD=dev  -e POSTGRES_DB=cryptoapp  postgres:11-alpine
