@@ -44,7 +44,7 @@ export function TodoItem({ rows }: ITodo) {
 
               <TableCell>
 
-              <IconButton onClick={() => handleTodoRemove(todo.id)} aria-label="delete">
+              <IconButton aria-label="delete">
                   <DeleteIcon />
               </IconButton>
               <IconButton aria-label="update" >
